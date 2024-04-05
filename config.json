@@ -1,0 +1,8 @@
+{
+  "SMTPServer": "mailrelay.domain.go.th",
+  "SMTPPort": 587,
+  "SenderEmail": "sender@email.com",
+  "SenderPassword": "senderpassword",
+  "EnableSSL": false,
+  "ReceiverEmail": "receiver@email.com"
+}
