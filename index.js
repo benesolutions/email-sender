@@ -12,6 +12,7 @@ var transporter = nodemailer.createTransport({
   tls: {
     rejectUnauthorized: false,
   },
+  connectionTimeout: 5000,
 });
 
 var mailOptions = {
